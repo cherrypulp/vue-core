@@ -380,7 +380,7 @@ var VueI18n = {
     },
 };
 
-var Blok = {
+var VueCore = {
     // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
     install: (app, options) => {
         console.log('Init Blok', app, options);
@@ -408,4 +408,4 @@ var Blok = {
     },
 };
 
-exports.Blok = Blok;
+exports.VueCore = VueCore;

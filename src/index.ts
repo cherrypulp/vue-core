@@ -1,1 +1,1 @@
-export { default as Blok } from './Blok';
+export { default as VueCore } from './VueCore';

@@ -1,5 +1,9 @@
-declare module '*.vue' {
-  import type { DefineComponent } from 'vue'
-  const component: DefineComponent<{}, {}, any>
-  export default component
+import { AxiosInstance } from 'axios';
+
+declare module 'vue/types/vue' {
+  // 3. Déclarez l'augmentation pour Vue
+  interface Vue {
+    $api: typeof AxiosInstance;
+    $http: typeof AxiosInstance;
+  }
 }
