@@ -1,6 +1,6 @@
 {
   "name": "@cherrypulp/vue-core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A set of useful Vue.Js plugins to build your next project with ease",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
