@@ -1,4 +1,4 @@
-# VueCore Vue
+# VueCore
 
 A set of interoperable plugins based on one config setup.
 
