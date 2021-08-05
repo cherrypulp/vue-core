@@ -20,7 +20,7 @@ import './index.css';
 createApp(App)
     .use(VueCore, {
         api: {
-            url: '/api',
+            url: 'https://jsonplaceholder.typicode.com', // Replace with your api endpoint
         },
         i18n: {
             translations: {
