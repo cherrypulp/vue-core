@@ -1,0 +1,66 @@
+{
+  "name": "@blok/vue",
+  "version": "1.0.0",
+  "description": "A set of useful Vue.Js plugins to build your next project with ease",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw",
+    "lint": "eslint 'src/**/*.{js,ts,jsx,tsx}'",
+    "serve-client": "vue-cli-service serve examples/src/main.ts",
+    "build-client": "vue-cli-service build examples/src/main.ts",
+    "lint-client": "vue-cli-service lint examples",
+    "dev": "npm run watch & npm run serve-client"
+  },
+  "files": [
+    "dist/*js",
+    "dist/*d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blok/vue.git"
+  },
+  "keywords": [
+    "vue",
+    "library",
+    "playwork",
+    "boilerplate",
+    "starter"
+  ],
+  "author": "Daniel Sum",
+  "license": "MIT",
+  "dependencies": {
+    "@cherrypulp/i18n": "^1.2.1",
+    "axios": "^0.21.1",
+    "core-js": ">=3.6.5",
+    "vue": ">=3.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "@rollup/plugin-typescript": "^6.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "eslint": "^7.12.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "prettier-eslint": "^11.0.0",
+    "prettier": "^1.19.1",
+    "rollup": "^2.32.1",
+    "typescript": "^4.0.5",
+    "vue-router": "^4.0.0-rc.1"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  }
+}
