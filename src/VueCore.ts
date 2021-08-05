@@ -23,7 +23,6 @@ declare global {
 export default {
   // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   install: (app: any, options: options) => {
-    console.log('Init Blok', app, options);
 
     if (typeof window.axios === 'undefined') {
       window.axios = axios;
