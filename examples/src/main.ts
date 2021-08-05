@@ -1,7 +1,7 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 import './index.css';
-import { VueCore } from '@cherrypulp/vue-core';
+import { VueCore } from '../../dist';
 
 createApp(App)
   .use(VueCore, {
