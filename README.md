@@ -1,6 +1,12 @@
 # VueCore
 
-A set of interoperable plugins based on one config setup.
+A set of interoperable plugins based on one simple config setup.
+
+## Why ?
+
+Finding and configuring plugins could be daunting and cumbersome. 
+
+GetBlok helps you to choose the right combo to have interroperable plugins for your bootstrapped Vue project with an opiniated design.
 
 ## Installing
 
@@ -36,6 +42,8 @@ createApp(App)
 
 - [https://www.npmjs.com/package/@cherrypulp/i18n](https://www.npmjs.com/package/@cherrypulp/i18n)
 - [https://www.npmjs.com/package/axios](https://www.npmjs.com/package/axios)
+- [https://2x.antdv.com/](https://2x.antdv.com/)
+- [https://lodash.com/](https://lodash.com/)
 
 ### Example
 
@@ -76,6 +84,10 @@ export default {
 <style scoped>
 </style>
 ````
+
+## How to test or contribute
+
+Feel free to add your issues or suggestion in .
 
 ### Compiles and hot-reloads for development
 ```

@@ -1,9 +1,11 @@
+import 'ant-design-vue/dist/antd.css';
 interface options {
     i18n: object;
     api: {
         url: string;
     };
     translations: object;
+    _: undefined;
 }
 declare global {
     interface Window {
