@@ -20,6 +20,8 @@ In your script file :
 import {createApp} from 'vue';
 import App from './App.vue';
 import {VueCore} from '@cherrypulp/vue-core';
+// @see : https://2x.antdv.com/docs/vue/customize-theme
+import 'ant-design-vue/dist/antd.css';
 
 import './index.css';
 

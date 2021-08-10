@@ -1,4 +1,3 @@
-import 'ant-design-vue/dist/antd.css';
 interface options {
     i18n: object;
     api: {

@@ -5,7 +5,6 @@ Object.defineProperty(exports, '__esModule', { value: true });
 var axios = require('axios');
 var _ = require('lodash');
 var Antd = require('ant-design-vue');
-require('ant-design-vue/dist/antd.css');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 

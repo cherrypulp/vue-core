@@ -2,7 +2,6 @@ import axios from 'axios';
 import _ from 'lodash';
 import Antd from 'ant-design-vue';
 import {message, notification} from 'ant-design-vue';
-import 'ant-design-vue/dist/antd.css';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import VueI18n from '@cherrypulp/i18n/src/vue-i18n';

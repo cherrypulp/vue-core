@@ -1,7 +1,6 @@
 import axios from 'axios';
 import _ from 'lodash';
 import Antd, { message, notification } from 'ant-design-vue';
-import 'ant-design-vue/dist/antd.css';
 
 /**
  * Simple I18n wrapper around a global object.
